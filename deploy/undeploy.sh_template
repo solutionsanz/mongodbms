@@ -1,7 +1,5 @@
 #!/bin/bash
 #microservices..
   #mongodbms..
-  kubectl delete -f kubernetes/mongodbms-ing.yaml
-  kubectl delete -f kubernetes/mongodbms-svc.yaml
-  kubectl delete -f kubernetes/mongodbms-dpl.yaml
-  kubectl delete namespace mongodbms
+
+kubectl delete -f kubernetes/mongo-statefulset.yaml
