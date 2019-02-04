@@ -4,3 +4,4 @@
   #git clone https://github.com/solutionsanz/mongodbms && cd mongodbms
 
 kubectl apply -f kubernetes/mongo-statefulset.yaml
+
