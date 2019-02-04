@@ -1,0 +1,8 @@
+#!/bin/bash
+#microservices..
+  #mongodbms..
+  #git clone --quiet https://github.com/solutionsanz/mongodbms >>/tmp/noise.out && cd mongodbms
+  kubectl create namespace mongodbms
+  kubectl create -f kubernetes/mongodbms-dpl.yaml
+  kubectl create -f kubernetes/mongodbms-svc.yaml
+  kubectl create -f kubernetes/mongodbms-ing.yaml
